@@ -14,8 +14,8 @@ Telegram-бот для преобразования голосовых и вид
 
 ### 1. Клонирование репозитория
 
-```bash
-git clone <ссылка-на-репозиторий>
+```
+git clone https://github.com/Avelgar/Speech-recognition-bot/
 cd Speech-recognition-bot
 ```
 
@@ -25,49 +25,50 @@ pip install -r requirements.txt
 ```
 
 ### 3. Установка дополнительных зависимостей
-Для Windows:
-
-bash
+**Для Windows:**
+```
 # Установка FFmpeg (необходим для работы с аудио)
 # Скачайте с https://ffmpeg.org/download.html и добавьте в PATH
-Для Linux (Ubuntu/Debian):
-
-bash
+```
+**Для Linux (Ubuntu/Debian):**
+```
 sudo apt update
 sudo apt install ffmpeg python3-pyaudio
-Для macOS:
+```
 
-bash
+**Для macOS:**
+```
 brew install ffmpeg portaudio
-4. Настройка бота
-Создайте бота через BotFather в Telegram
+```
+
+### 4. Настройка бота
+
+Создайте бота через BotFather(https://t.me/BotFather) в Telegram
 
 Получите токен бота
 
-В файле bot.py замените строку:
-
-python
+В файле ```bot.py``` замените строку:
+```
 BOT_TOKEN = "Ваш токен бота"
+````
 на ваш действительный токен:
-
-python
+```
 BOT_TOKEN = "1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-Запуск бота
-bash
+```
+
+### Запуск бота
+```bash
 python bot.py
+```
+
 После запуска в консоли появится сообщение "Бот запущен...".
 
-Использование
-Найдите своего бота в Telegram по имени
-
-Начните диалог с командой /start
-
-Отправьте боту:
-
-Голосовое сообщение
-
-Видео-сообщение (круглое)
-
-Обычный видеофайл
+## Использование
+1. Найдите своего бота в Telegram по имени
+2. Начните диалог с командой ```/start```
+3. Отправьте боту:
+  * Голосовое сообщение
+  * Видео-сообщение (кружок)
+  * Обычный видеофайл
 
 Бот автоматически обработает сообщение и вернет распознанный текст.
