@@ -1,5 +1,7 @@
 # Speech Recognition Bot
 
+[![Telegram Bot](https://img.shields.io/badge/Telegram-@Cool_Speech_To_Text_Bot-blue?logo=telegram)](https://t.me/YourBotName)
+
 Telegram-бот для преобразования голосовых и видео сообщений в текст с использованием технологии распознавания речи.
 
 ## Функциональность
@@ -43,7 +45,7 @@ brew install ffmpeg portaudio
 
 ### 4. Настройка бота
 
-Создайте бота через BotFather(https://t.me/BotFather) в Telegram
+Создайте бота через [BotFather](https://t.me/BotFather) в Telegram
 
 Получите токен бота
 
