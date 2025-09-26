@@ -1,6 +1,6 @@
 # Speech Recognition Bot
 
-[![Telegram Bot](https://img.shields.io/badge/Telegram-@Cool_Speech_To_Text_Bot-blue?logo=telegram)](https://t.me/YourBotName)
+[![Telegram Bot](https://img.shields.io/badge/Telegram-@Speech_To_Text_Bot-blue?logo=telegram)](https://t.me/Cool_Speech_To_Text_Bot)
 
 Telegram-бот для преобразования голосовых и видео сообщений в текст с использованием технологии распознавания речи.
 
